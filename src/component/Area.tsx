@@ -46,6 +46,7 @@ function Area({ data }: { data: any }) {
         $$(`.mobilenumber${data.id}`).value = null;
         dispatch(earn(Number(pay)));
         alert("thanks for coming to my parking lot");
+        setOpen(true);
       } else {
         alert("minimum pay $10");
       }
